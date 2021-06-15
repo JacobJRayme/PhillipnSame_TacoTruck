@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    background: #F7FD04;
+    font-family: 'Fugaz One', cursive;
+    
+}
+
+.title{
+    color: #FC5404;
+    font-size:  2rem;
+}
+
+.intro{
+    color: #F98404;
+    font-size: 0.8rem;
+}
+
+.home{
+    text-align: center;
+    border-style: solid;
+    margin: 2rem;
+    padding: 1.8rem;
+}
+
+.testomonials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.truck{
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+}
+
+a:link {
+    color: #FC5404;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
